@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;lesson002.deneme2&apos; to &apos;Deneme2&apos;&#x0D;&#x0A;- Original project: &apos;Algoritma&apos;&#x0D;&#x0A;- Original element: &apos;lesson002.deneme2&apos;&#x0D;&#x0A;- Renamed element: &apos;lesson002.Deneme2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;deneme2&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;lesson002{deneme2.java[deneme2" matchStrategy="1" name="Deneme2" qualified="false" references="true" similarDeclarations="false" stamp="1674834704919" textual="false" version="1.0"/>
+</session>
