@@ -39,15 +39,12 @@ public class HW {
 		System.out.println("Dizideki en büyük ikinci sayı: " + max2);
 		System.out.println("\n------------ODEV3-----------\n");
 		//ödev3
-		int nums2[] = { 1, 13, 5, 13, 2, 5, 7, 1 };
+		int nums2[] = {1, 13, 5, 13, 13, 13, 2, 5, 7, 1, 13, 13};
 		// bir dizide eğer 13 var ise hem 13ü hem de bir sonraki indexi toplama işlemine almadan dizideki elemanların toplamı
 		int sum = 0;
-		for(int i = 0; i < nums2.length; i++) {
-			if(nums2[i] != 13) {
+		for(int i = nums2.length - 1; i >= 0; i--) {
+			if(nums2[i] != 13 && nums2[i+1] != 13) {
 				sum += nums2[i];
-			}
-			else {
-				i+=1;
 			}
 		}
 		System.out.println("Toplam: " + sum);
