@@ -4,10 +4,10 @@ public class Question63 {
 	
 	private static void arrayToplar(int[] x, int[] y) {
 		int[] toplam = new int[x.length];
-		for(int i : x) {
+		for(int i = 0; i < x.length; i++) {
 			toplam[i] = x[i] + y[i];
 		}
-		for(int i : toplam) {
+		for(int i = 0; i < toplam.length; i++) {
 			System.out.print(toplam[i] + " ");
 		}
 	}
