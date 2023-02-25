@@ -14,4 +14,12 @@
     <fullyQualifiedTypeName name="lesson012.Pizza"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="lesson013.Soru"/>
+    <fullyQualifiedTypeName name="lesson014.AccountManager"/>
+    <fullyQualifiedTypeName name="lesson014.User"/>
+    <fullyQualifiedTypeName name="lesson014.UserManager"/>
+    <fullyQualifiedTypeName name="lesson014.AdminManager"/>
+    <fullyQualifiedTypeName name="lesson014.Account"/>
+    <fullyQualifiedTypeName name="hw2.PersonelMaasSistemi"/>
+    <fullyQualifiedTypeName name="hw2.MaasHesaplamaSistemi"/>
+    <fullyQualifiedTypeName name="hw2.TakimManager"/>
 </qualifiedTypeNameHistroy>
