@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -12,7 +11,6 @@
     <fullyQualifiedTypeName name="lesson011.Product"/>
     <fullyQualifiedTypeName name="lesson011.helper.RandomGenerateID"/>
     <fullyQualifiedTypeName name="lesson012.Pizza"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="lesson013.Soru"/>
     <fullyQualifiedTypeName name="lesson014.AccountManager"/>
     <fullyQualifiedTypeName name="lesson014.User"/>
@@ -22,4 +20,15 @@
     <fullyQualifiedTypeName name="hw2.PersonelMaasSistemi"/>
     <fullyQualifiedTypeName name="hw2.MaasHesaplamaSistemi"/>
     <fullyQualifiedTypeName name="hw2.TakimManager"/>
+    <fullyQualifiedTypeName name="lesson015.veteriner.Main"/>
+    <fullyQualifiedTypeName name="lesson015.veteriner.Hayvan"/>
+    <fullyQualifiedTypeName name="lesson015.veteriner.Kedi"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="lesson015.veteriner.Musteri"/>
+    <fullyQualifiedTypeName name="lesson015.veteriner.Veteriner"/>
+    <fullyQualifiedTypeName name="lesson016.InterfaceOrnek.IHareket"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="lesson016.InterfaceUygulama.Kutuphane"/>
 </qualifiedTypeNameHistroy>
