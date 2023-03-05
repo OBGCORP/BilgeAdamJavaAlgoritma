@@ -12,4 +12,7 @@ public interface IKutuphaneManager {
 	
 	void indirimYap();
 	
+	void indirimdekiKitaplariGoster();
+	
+	void kitapGuncelle();
 }

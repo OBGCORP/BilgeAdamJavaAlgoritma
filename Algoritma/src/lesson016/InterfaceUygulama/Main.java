@@ -11,6 +11,8 @@ public class Main {
 			System.out.println("3- Yazar İsmine Göre Kitap Ara");
 			System.out.println("4- Kitap Sil");
 			System.out.println("5- Kitaba İndirim Yap");
+			System.out.println("6- Kitap ismi güncelle");
+			System.out.println("7- İndirimdeki kitapları göster");
 			int secim = Util.intDegerAl("Seçiminizi giriniz");
 			switch (secim) {
 			case 1:
@@ -28,8 +30,14 @@ public class Main {
 			case 5:
 				kutuphane.indirimYap();
 				break;
+			case 6:
+				kutuphane.kitapGuncelle();
+				break;
+			case 7:
+				kutuphane.indirimdekiKitaplariGoster();
+				break;
 			default:
-				
+			
 				break;
 			}
 		}

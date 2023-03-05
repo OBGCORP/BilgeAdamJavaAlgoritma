@@ -6,11 +6,13 @@ public class Kutuphane implements IKutuphaneManager{
 	
 	private String isim;
 	private List<Kitap> kitapListesi;
+	private List<Kitap> indirimdekiKitaplar;
 	
 	
 	public Kutuphane(String isim) {
 		super();
 		this.isim = isim;
+		this.indirimdekiKitaplar = new ArrayList<>();
 		this.kitapListesi = new ArrayList<Kitap>();
 		System.out.println("Kütüphane oluştu");
 	}
@@ -63,6 +65,7 @@ public class Kutuphane implements IKutuphaneManager{
 			int indirim = Util.intDegerAl("İndirim miktarını giriniz.");
 			roam(kitap).setFiyat(roam(kitap).getFiyat() - indirim);
 					System.out.println(roam(kitap).getIsim() + " kitabının yeni fiyatı " + roam(kitap).getFiyat());
+					getIndirimdekiKitaplar().add(roam(kitap));
 		}
 		else {
 			System.out.println("Kitap bulunamadı.");
@@ -77,7 +80,7 @@ public class Kutuphane implements IKutuphaneManager{
 		}
 		return null;
 	}
-
+	
 	public String getIsim() {
 		return isim;
 	}
@@ -89,5 +92,29 @@ public class Kutuphane implements IKutuphaneManager{
 	public List<Kitap> getKitapListesi() {
 		return kitapListesi;
 	}
-	
+
+	public List<Kitap> getIndirimdekiKitaplar() {
+		return indirimdekiKitaplar;
+	}
+
+	@Override
+	public void indirimdekiKitaplariGoster() {
+		System.out.println("indirimdeki kitaplar");
+		for(Kitap kitap : getIndirimdekiKitaplar()) {
+			System.out.println(kitap.getIsim());
+		}
+	}
+
+	@Override
+	public void kitapGuncelle() {
+		String isim = Util.stringDegerAl("Değiştirmek istediğiniz kitabı giriniz.");
+		if(roam(isim) != null) {
+			String yeniIsim = Util.stringDegerAl("Yeni ismi giriniz.");
+			roam(isim).setIsim(yeniIsim);
+			System.out.println("güncel isim: " + yeniIsim);
+		}
+		else {
+			System.out.println("Kitap bulunamadı.");
+		}
+	}	
 }

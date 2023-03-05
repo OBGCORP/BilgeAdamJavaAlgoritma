@@ -28,7 +28,24 @@
     <fullyQualifiedTypeName name="lesson015.veteriner.Musteri"/>
     <fullyQualifiedTypeName name="lesson015.veteriner.Veteriner"/>
     <fullyQualifiedTypeName name="lesson016.InterfaceOrnek.IHareket"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="lesson016.InterfaceUygulama.Kutuphane"/>
+    <fullyQualifiedTypeName name="lesson016.InterfaceUygulama.Util"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="lesson018.QueueOrnek"/>
+    <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="lesson018.ESikayet"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="lesson019.OyunuBaslat"/>
+    <fullyQualifiedTypeName name="hw3.EHaberTuru"/>
+    <fullyQualifiedTypeName name="hw3.EMuzikTuru"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="hw3.HaberKanalı"/>
+    <fullyQualifiedTypeName name="hw3.MuzikKanali"/>
+    <fullyQualifiedTypeName name="hw3.Televizyon"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
